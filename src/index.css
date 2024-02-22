@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.scroll-box::-webkit-scrollbar {
+  width: 0.3em;
+}
+.scroll-box::-webkit-scrollbar,
+.scroll-box::-webkit-scrollbar-thumb {
+  overflow: visible;
+  border-radius: 4px;
+}
+.scroll-box::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+}
+.entry {
+  max-height: 565px;
+}
