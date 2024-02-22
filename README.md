@@ -12,9 +12,9 @@ Features
 
 To get started with the project, follow these steps:
 
-    Clone the Repository:
+Clone the Repository:
 
-    bash
+bash
 
 git clone 
             
@@ -39,7 +39,6 @@ Client
 
 Create a .env file in the root directory of the project and provide the necessary environment variables:
 
-        plaintext
 
         PORT=5000
         MONGO_URI=<your-mongodb-uri>
@@ -49,13 +48,13 @@ Create a .env file in the root directory of the project and provide the necessar
 
 Once dependencies are installed and environment variables are set, you can start the server:
 
-    bash
+bash
 
         npm start
 
 Next, you can start the frontend:
 
-    bash
+bash
 
         npm start
 
@@ -69,7 +68,7 @@ bash
 
         node seed-data.js
 
-    Make sure to replace <your-mongodb-uri> with the actual URI of your MongoDB database.
+Make sure to replace <your-mongodb-uri> with the actual URI of your MongoDB database.
 
 ## API Endpoints
 
